@@ -1,0 +1,48 @@
+
+body {
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+          
+   .container {
+       margin-top: 100px;
+   }
+   form {
+    margin: 50px;
+       padding: 10px;
+       background-color: white;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       border-radius: 5px;
+   }
+   label {
+       font-weight: bold;
+   }
+   .form-control {
+       margin-bottom: 10px;
+   }
+   #addButton {
+       background-color: #007bff;
+       position: relative;
+  
+       left: 40%;
+       color: #ffffff;
+       border: none;
+       padding: 10px 20px;
+       border-radius: 5px;
+       cursor: pointer;
+   }
+   #addButton:hover {
+       background-color: #0056b3;
+   }
+   h1{
+      padding: 20px;
+       color: #04d547;
+       font-family: sans-serif;
+       text-align: center;
+   }
+   #userstatus{
+      font-family: sans-serif;
+      color: red;
+   }

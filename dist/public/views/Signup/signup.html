@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>signup</title>
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="signup.css">
+</head>
+ <body>
+    <div class="container" >
+      
+      
+     <div class="row">
+      <div class="col-md-6 mx-auto">
+       <form>
+       
+            <h1>Sign Up</h1>
+        <div class="form-group">
+            <label for="username">User Name :</label>
+            <input type="text" id="username" name="username" class="form-control" required>
+           </div>
+           <div class="form-group">
+            <label for="email">Email Adress:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+           </div>
+           <div class="form-group">
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" class="form-control" required>
+           </div>
+           <h3 id="userstatus"></h3>
+           <div class="form-group">
+            <button type="submit" id="signup" class="btn btn-primary">Sign Up</button>
+           </div>
+        
+           
+       </form>
+      
+      </div>
+     </div></div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"></script>
+    
+    <script src="signup.js"></script>
+ </body></html>
